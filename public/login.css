@@ -1,0 +1,53 @@
+.bgimg {
+	background-image: url(/sary/a.jpg);
+	background-repeat: no-repeat;
+	height: auto;
+     min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.logo {
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#spa {
+	color: orange;
+	font-weight: bold;
+}
+
+label {
+	color: cyan;
+	padding-top: 20px;
+}
+
+.lab1 {
+	margin-top: 20px;
+	padding-bottom: 30px;
+}
+
+
+.btn {
+	padding: 7px;
+}
+
+ .sign {
+ 	width: auto;
+ 	height: 30px;
+    display: inline-block;
+ }
+
+a {
+	font-weight: bold;
+
+}
+
+.space {
+	padding-bottom: 200px;
+}

@@ -1,0 +1,29 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+.bod {
+	background-color:#95afc0;
+}
+
+#sary {
+	width: 260px;
+	height: 200px;
+}
+
+.sary {
+	margin-top: 50px;
+
+	padding-left: 20px
+}
+
+#profil {
+	border: 1px solid grey;
+	background-color: red;
+
+	margin-right: 20px;
+	margin-bottom: 30px;
+
+	box-shadow: 0px 5px 6px 4px;
+}

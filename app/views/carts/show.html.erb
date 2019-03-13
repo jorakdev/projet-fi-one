@@ -1,0 +1,42 @@
+
+
+<ul>
+
+  <% @cart.line_items.each do |item|%>
+  <!-- <é%@i += 1%> -->
+  <% @c_user = item.current_user_id%>
+    <%if(item.current_user_id == current_user.id)%>
+
+      <li><%= item.product.title %>
+        (x<%=item.quantity%>)
+        <span class="badge badge-info">
+          <%= number_to_currency(item.total, unit: "MGA ", separator: ",", format: "%u%n")%>
+        </li>
+      <%end%>
+    <%end%>
+
+    <% if (@c_user == current_user.id)%>
+     <p class="font-weight-bold">Total :
+        <span class="badge badge-info">
+            <%= number_to_currency(@cart.total, unit: "MGA ", separator: ",", format: "%u%n")%>
+        </span>
+      </p>
+    </ul>
+
+    <div class="row">
+      <div class="col">
+        <%= link_to 'Miverina Hividy saka', root_path, class: "btn btn-primary btn-sm" %><br><br>
+        <%= button_to 'Vider le panier', @cart, method: :delete, data: { confirm: "Tena alana ao anaty sobika le saka.?"}, class: "btn btn-danger btn-sm" %>
+      </div>
+
+    </div>
+  <%end%>
+    <!-- <ul>
+      <''% @cart.line_items.each do |item|%>
+        <''%if(item.current_user_id == current_user.id)%>
+          <li><''%= item.product.title %>
+            (x<''%=item.quantity%>)</li>
+        <''%end%>
+      <''%end%>
+      <''%=current_user.id%>
+    </ul> -->

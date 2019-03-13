@@ -1,0 +1,16 @@
+.body {
+	background-color: #ffa801;
+}
+
+.logo {
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+
+	padding-top: 15px;
+	padding-right: 20px;
+}
+
+.spa {
+	color: orange;
+}

@@ -1,0 +1,60 @@
+.body {
+	background-color: #ffa801;
+}
+
+.logo {
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+
+	padding-top: 15px;
+	padding-right: 20px;
+}
+
+.spa {
+	color: orange;
+}
+
+.forum {
+	background-color: ;
+}
+
+.tout {
+	background-color: #1e272e;
+	width: 300px;	
+
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+.nom {
+	color: #fff;
+	background-color: #34495e;
+
+	border-top-right-radius: 30px;
+
+	font-size: 20px;
+	font-weight: bold;
+
+	padding-left: 10px;
+
+}
+
+
+
+.contenu {
+	background-color: #ecf0f1;
+
+	padding: 10px 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+.lien {
+	padding-left: 170px;
+}
+
